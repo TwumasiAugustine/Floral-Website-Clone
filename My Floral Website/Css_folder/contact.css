@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html, body{
+    font-family: 'Lato', sans-serif;
+    
+    background: rgba(226, 226, 226, 0.795);
+}
+li,a{
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center; 
+}
+
+#header{
+    background-image: url(https://image.shutterstock.com/image-illustration/tropical-exotic-vintage-seamless-pattern-260nw-1860984517.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.header{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f1ce07dc;
+    font-family: cursive;
+}
+.head-desc{
+    text-align: center;
+    word-wrap: break-word;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    width: 1rem;
+    margin: 2px;
+    
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h1,h2{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navbar, ul{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    width: fit-content;
+    flex-wrap: nowrap;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.nav-link{
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    color: #fff;
+    text-transform: capitalize;
+    transition: all 450ms ease-in;
+}
+.nav-link:hover{
+    color: rgb(135, 135, 243);
+    background: rgba(194, 194, 194, 0.5);
+    font-size: 1rem;
+}
+.description{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 25px;
+}
+#contacts{
+    background: #fff;
+    padding:1rem 0;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0 1rem;
+    box-shadow: 2px 2px  rgb(0, 0, 0,);
+}
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    width:3.5rem;
+    margin: 5px;
+}
+.table-content{
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-wrap: wrap;
+    background: #fff;
+    margin: 0 1rem;
+    border-radius: 5px;
+    padding: 2rem 0;
+}
+table{
+    border:1px solid;
+    border-radius: 5px;
+    margin:0 5rem;
+    background:#fff;
+    
+}
+caption{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+table th, table td{
+    border:1px solid #333;
+}
+td:first-child{
+    color: blue;
+    font-weight: bolder;
+}
+
+th{
+    color: black;
+    font-weight: bolder;
+}
+footer{
+    background: rgb(54, 54, 54);
+    color: rgb(214, 214, 214);
+    padding-top: 10px;
+}
+.footer, ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: inherit;
+    font-size: 0.8rem;
+    color: rgb(214, 214, 214);
+}
+#copyright{
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(214, 214, 214);
+}

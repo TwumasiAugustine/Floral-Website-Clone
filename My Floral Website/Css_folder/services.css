@@ -1,0 +1,162 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: rgba(226, 226, 226, 0.795);
+}
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+#header{
+    background-image: url(https://image.shutterstock.com/image-illustration/tropical-exotic-vintage-seamless-pattern-260nw-1860984517.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.header{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f1ce07dc;
+    font-family: cursive;
+}
+.head-desc{
+    text-align: center;
+    word-wrap: break-word;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    width: 1rem;
+    margin: 2px;
+}
+h2{
+    text-align:center;
+}
+#navbar, ul{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    width: fit-content;
+    flex-wrap: nowrap;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+.nav-link{
+    margin: 10px;
+    width: auto;
+    color: rgb(226, 226, 226);
+    font-size: 1rem;
+    padding:5px;
+    transition: all 450ms ease-in;
+}
+.nav-link:hover{
+    color: rgb(135, 135, 243);
+    font-size: 1rem;
+    background:rgba(145, 144, 144, 0.5);
+}
+.description{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 25px;
+}
+
+@media screen and (max-width: 400px) {
+header{
+    text-align: left;
+    }
+#logo{
+    margin-left: 2px;
+    }
+    .nav-link{
+    font-size: 0.6rem;
+    }
+}
+@media screen and (min-width:1023px) {
+.header{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+p{
+    font-size: 1.3rem;
+    }
+    
+h2{
+    text-align: center;
+    font-size: 2rem;
+    }
+
+
+}
+.text-center{
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2rem 0;
+    z-index: 1;
+}
+.img-responsive{
+    width:17rem;
+    /* height:17rem; */
+    margin: 10px;
+    border-radius: 5px;
+    z-index: 2;
+    box-shadow: 0 1px 2px 1px;
+
+}
+footer{
+    background: rgb(54, 54, 54);
+    color: rgb(214, 214, 214);
+    padding-top: 10px;
+}
+.footer, ol{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: inherit;
+    font-size: 0.8rem;
+    color: rgb(214, 214, 214);
+}
+#copyright{
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(214, 214, 214);
+}

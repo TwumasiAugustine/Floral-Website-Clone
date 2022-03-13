@@ -1,0 +1,261 @@
+*{
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+html, body{
+   font-family: 'Lato', sans-serif;
+   margin: 0;
+   background: rgba(226, 226, 226, 0.795);
+}
+
+li,a{
+   list-style: none;
+   text-decoration: none;
+}
+p{
+   line-height: 1.5;
+   font-size: 1.2rem;
+}
+
+#header{
+   background-image: url(https://image.shutterstock.com/image-illustration/tropical-exotic-vintage-seamless-pattern-260nw-1860984517.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-origin: border-box;
+   background-size: cover;
+   background-position: center;
+   color: #fff;
+   margin: 0;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+}
+.header{
+   font-size: 2rem;
+   font-weight: bold;
+   color: #f1ce07dc;
+   font-family: cursive;
+}
+.head-desc{
+   text-align: center;
+   word-wrap: break-word;
+}
+#logo{
+   position: absolute;
+   top: 0;
+   left: 0;
+   justify-content: flex-start;
+   width: 1rem;
+   margin: 2px;
+   
+}
+h2{
+   padding-left: 10px;
+}
+#navbar, ul{
+   display: flex;
+   flex-direction: row;
+   position:absolute;
+   width: fit-content;
+   flex-wrap: nowrap;
+   top: 0;
+   right: 0;
+   margin: 0;
+   padding: 0;
+   justify-content: space-between;
+}
+.nav-link{
+   margin: 10px;
+   width: auto;
+   color: rgb(226, 226, 226);
+   font-size: 1rem;
+   padding: 5px;
+   transition: all 450ms ease-in;
+   
+}
+.nav-link:hover{
+   color: rgb(135, 135, 243);
+   font-size: 1rem;
+   background: rgba(255, 255, 255, 0.5);
+}
+.description{
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   color: #fff;
+   margin: 25px;
+}
+#form{
+   text-align: left;
+   line-height: 1;
+   padding-top: 20px;
+   margin-left: 30px;
+}
+#form > input{
+   min-width: 250px;
+}
+.label{
+   padding-bottom: 0;
+   margin-bottom: 0;
+   color: rgb(2, 2, 3);
+}
+button{
+   cursor: pointer;
+   margin-left: 200px;
+   text-transform: uppercase;
+   border: none;
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 0.65rem;
+   transition: all 350ms ease-out;
+}
+button:hover{
+   background: rgb(122, 122, 235);
+   color: #fff;
+   font-size: 0.7rem;
+}
+#second-section{
+   padding-top: 250px;
+}
+.container-1{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background: rgb(238, 238, 238);
+}
+.text-box{
+   text-align: center;
+   word-wrap: break-word;
+   margin: 10px;
+   width: 20rem;
+   
+}
+.in-text{
+   font-family: monospace;
+   font-weight: bold;
+   font-size: 1rem;
+}
+.video{
+   justify-content: space-evenly;
+   background: rgb(224, 224, 224);;
+}
+#third-section{
+   background: rgb(238, 238, 238);
+   z-index: 300000;
+   
+}
+#video{
+   width: 87vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin:20px;
+   border-radius: 5px;
+}
+@media screen and (max-width: 400px) {
+   .img{
+      width: 20rem;
+      margin: 10px;
+   }
+   .img:hover{
+      width: 22rem;
+   }
+   header{
+      text-align: left;
+   }
+   #logo{
+      margin-left: 2px;
+   }
+   
+   input{
+      min-width: auto;
+      min-height: 20px;
+      line-height: 1.9;
+   }
+   .container{
+      margin-left: 5px;
+   }
+   .nav-link{
+      font-size: 0.6rem;
+   }
+}
+@media screen and (min-width:1023px) {
+   .header{
+      font-size: 3rem;
+      font-weight: bolder;
+   }
+   p{
+      font-size: 1.3rem;
+   }
+      
+   h2{
+      text-align: center;
+      font-size: 2rem;
+   }
+   .container{
+      position: relative;
+      top: 0;
+      right: 0;
+      width: auto;
+      margin: 15px;
+      padding: 15px;
+   }
+   .head-desc{
+      padding-right: 250px;
+   }
+   .label{
+      color: white;
+   }
+   #second-section{
+      padding-top: 0;
+   }
+}
+.container-2{
+   display: flex;
+   margin: 10px;
+   flex-wrap: wrap;
+   background: rgb(238, 238, 238);
+   justify-content: space-evenly;
+   border-radius: 5px;
+}
+.container{
+   position: absolute;
+}
+.img{
+   width: 15rem;
+   margin: 10px;
+   border-radius: 5px;
+   box-shadow: 2px 1px  2px 1px rgb(36, 36, 36);
+   z-index: -1;
+   transition: all 400ms ease-out;
+   -webkit-transition: all 400ms ease-out;
+   -moz-transition: all 400ms ease-out;
+   -o-transition: all 400ms ease-out;
+   
+}
+.img:hover{
+   width: 15.5rem;
+}
+footer{
+   background: rgb(54, 54, 54);
+   color: rgb(214, 214, 214);
+   padding-top: 10px;
+}
+.footer, ol{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: center;
+   text-align: center;
+   margin-bottom: 0;
+   padding-bottom: 0;
+   font-family: inherit;
+   font-size: 0.8rem;
+   color: rgb(214, 214, 214);
+}
+#copyright{
+   text-align: center;
+   margin-bottom: 0;
+   color: rgb(214, 214, 214);
+}
